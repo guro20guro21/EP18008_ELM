@@ -55,7 +55,7 @@ Elmをインストールして使用ガイドを見ながら実行
 
 ![](https://i.imgur.com/opxTZSr.jpg)
 
-:::spoiler マウスの周囲に円を表示、クリックで色が薄くなる
+マウスの周囲に円を表示、クリックで色が薄くなる
 ```
 -- Draw a cicle around the mouse. Change its color by pressing down.
 --
@@ -81,7 +81,7 @@ view computer memory =
 update computer memory =
   memory
 ```
-:::
+
 
 
 **このプログラムと増減カウンターを組み合わせる？**
@@ -94,7 +94,7 @@ update computer memory =
 # 第3週
 ## 進捗
 ゼロです...というわけでもなく微妙
-:::spoiler プログラム
+プログラム
 ```
 import Browser
 -- import Html exposing (Html, button, div, text)
@@ -195,7 +195,7 @@ viewRect (xPos, yPos) =
   rect [ x (String.fromFloat xPos) , y (String.fromFloat yPos)
     , width "100", height "100"] []
 ```
-:::
+
 
 先にこちらを↓
 
@@ -207,7 +207,7 @@ Playgroundじゃなくてもできている！
 
 ## なぜ進捗ゼロか
 オンラインエディタではエラーが出てしまう。
-:::spoiler エラー文(1)
+エラー文(1)
 You are trying to import a `Html.Events.Extra.Mouse` module:
 
 6| import Html.Events.Extra.Mouse as Mouse
@@ -222,8 +222,8 @@ but I cannot find it! Maybe it is a typo for one of these names?
 
 Hint: If it is not a typo, check the "dependencies" and "source-directories" of
 your elm.json to make sure all the packages you need are listed there!
-:::
-:::spoiler エラー文(2)
+
+エラー文(2)
 You are trying to import a `List.Extra` module:
 
 7| import List.Extra
@@ -238,7 +238,7 @@ but I cannot find it! Maybe it is a typo for one of these names?
 
 Hint: If it is not a typo, check the "dependencies" and "source-directories" of
 your elm.json to make sure all the packages you need are listed there!
-:::
+
 原因...
 オンラインエディタでは、
 ・参照しているソースコード(プログラム)がない
