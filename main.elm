@@ -1,3 +1,4 @@
+-- main.elm
 import Browser
 import Html exposing (..)
 import Html.Attributes exposing (..)
@@ -6,12 +7,13 @@ import Json.Decode exposing (..)
 
 main = Browser.sandbox{init=init, view=view, update=update}
 
+--状態
 type alias Model = {color:String, x:Int, y:Int, drag_now:Bool, offsetX:Int, offsetY:Int}
 
 init : Model
 init = {color = "#000000", x = 270, y = 270, drag_now = False, offsetX=0, offsetY=0}
 
-
+--受信
 type Msg = NoOp
          | Down
          | Up
@@ -29,6 +31,7 @@ update msg model =
         {model | x = x - model.offsetX, y = y - model.offsetY}
     _ -> model
 
+-- 図形の描画
 view : Model -> Html Msg
 view model =
   div[ style "position" "relative"
