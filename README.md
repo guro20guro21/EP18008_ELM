@@ -313,3 +313,8 @@ Elmでアニメーションを扱うためのパッケージ、[elm-ui](https://
 [[GitHub - ababup/15-puzzle]](https://github.com/ababup1192/15-puzzle)
 　15パズルのソースコード
 
+# 第5週（以降）
+1. EP18119 Yくんのプログラムを解読（改良点が自分からは全く見当たらないため）
+2. 自分用に注釈をつけた
+
+![](https://user-images.githubusercontent.com/76155132/103411284-7d193d00-4bb2-11eb-9100-0d8eb73bba82.png)
