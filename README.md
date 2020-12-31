@@ -12,10 +12,14 @@ Elm使用ガイド(日本語訳)：[[An Introduction to Elm](https://guide.elm-l
 ・JavaScriptにコンパイルできる関数型プログラミング言語
 
 ・エラー表示が分かりやすい↓
+
 ![](https://i.imgur.com/3FNwgtE.png)
 
+
 ・パフォーマンスが高い↓
+
 ![](https://i.imgur.com/pXDM9YR.png)
+
 
 ・if式、let式、case式、匿名関数、不変性、静的型付け等を持っている
 　（不変性：Elmのすべての値はイミュータブル）
@@ -48,6 +52,7 @@ Elmをインストールして使用ガイドを見ながら実行
 
 ## サンプルプログラムを試す
 オンラインエディタ上部のMore Examples [Here](https://elm-lang.org/examples)から行う
+
 ![](https://i.imgur.com/opxTZSr.jpg)
 
 :::spoiler マウスの周囲に円を表示、クリックで色が薄くなる
@@ -268,9 +273,13 @@ File → Open Folder... →[フォルダ名]　からいろいろやっていく
 ドラッグ&ドロップが使われそうなもの → スライドパズルを試す
 
 これ(↓)が
+
 ![](https://i.imgur.com/azJxLG4.png)
+
 　　　　　　　　![](https://i.imgur.com/GOeIX2u.png)
+        
 ![](https://i.imgur.com/Klh2ENY.png)
+
 こう(↑)なる
 
 but. ドラッグ&ドロップではなくセルの入れ替え
